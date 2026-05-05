@@ -1,8 +1,7 @@
 📊 E-Commerce Sales Dashboard (Streamlit)
 🚀 Live Demo
-
-👉 Try the Dashboard:
 🔗 https://ecommerce-das.streamlit.app/
+
 
 📌 Project Overview
 
@@ -55,7 +54,8 @@ The dashboard is deployed using Streamlit Community Cloud, which allows apps to 
 
 📷 Dashboard Preview
 
-(Add your screenshot here — you already uploaded one)
+🔗 https://ecommerce-das.streamlit.app/
+
 
 📌 Key Insights
 Certain divisions contribute most of the revenue
