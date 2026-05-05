@@ -39,7 +39,7 @@ COL  = ["#a855f7","#6366f1","#ec4899","#06b6d4","#10b981","#f59e0b","#f87171"]
 def load():
     df = pd.read_csv("cleaned_nassau_data.csv", parse_dates=["order_date","ship_date"])
     df["month"]   = df["order_date"].dt.to_period("M").dt.to_timestamp()
-    df["year"]    = df["order_date"].dt.year.astype(str)
+    df["year"]    = df["order_date"].dt.year.astype(int).astype(str)
     df["quarter"] = df["order_date"].dt.to_period("Q").astype(str)
     df["margin"]  = (df["gross_profit"] / df["sales"] * 100).round(1)
     return df
